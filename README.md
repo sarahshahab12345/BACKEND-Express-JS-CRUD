@@ -20,3 +20,16 @@ To get started with this project, you'll need to install the following packages.
 
 ```bash
 npm install
+```
+
+## Note:
+Create a .env file in the root directory and define the following environment variables:
+```bash
+PORT=<your-port-number>
+CONNECTION_STRING=<your-mongodb-connection-string>
+SECRET_KEY=<your-secret-key>
+```
+
+- PORT: The port number your application will run on.
+- CONNECTION_STRING: Your MongoDB connection string.
+- SECRET_KEY: A secret key used for JWT token encryption.
